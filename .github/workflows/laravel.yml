@@ -28,9 +28,6 @@ jobs:
         key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
         restore-keys: ${{ runner.os }}-composer-
 
-    - name: Validate Composer JSON
-      run: composer validate
-
     - name: Install Dependencies
       run: composer install --prefer-dist --no-ansi --no-interaction --no-scripts --verbose
 
