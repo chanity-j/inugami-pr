@@ -1,5 +1,5 @@
 {
-    "name": "your-vendor-name/your-project-name",
+    "name": "laravel/cjme",
     "description": "A sample Laravel project",
     "type": "project",
     "require": {
